@@ -1,0 +1,8 @@
+environs
+semantic_version
+pytest
+starlette_exporter
+fastapi
+uvicorn
+pydantic
+requests

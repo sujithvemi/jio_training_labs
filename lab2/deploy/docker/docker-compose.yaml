@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    image: ${APP_IMAGE_NAME}
+    ports:
+      - 8080:8080
+    environment:
+      HTTP_PORT: 8080
+      HTTP_HOST: 127.0.0.1
